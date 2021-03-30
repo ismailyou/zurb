@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbfdb461-ed39-44b8-a221-ac90c467867c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1qGqFobezqlcRojzBQJlM0MVwT9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbfdb461-ed39-44b8-a221-ac90c467867c" name="Default Changelist" comment="" />
+      <created>1616716173708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616716173708</updated>
+      <workItem from="1616716174812" duration="67429000" />
+      <workItem from="1617100913741" duration="4044000" />
+      <workItem from="1617108255630" duration="9396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616884110003">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="414" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1616884110003" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1616883573958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616883573958" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1617016119343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1617016119343" />
+    <state width="752" height="222" key="javadoc.popup" timestamp="1616893152481">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="752" height="222" key="javadoc.popup/0.0.1366.728@0.0.1366.728" timestamp="1616893152480" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1616974322228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616974322228" />
+    <state x="262" y="0" key="search.everywhere.popup" timestamp="1617023729277">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="0" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617023729277" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+    let chart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        title: {
+            text: "Coronavirus (Covid-19)"
+        },
+        axisY: {
+            title: "Active Cases",
+            valueFormatString: "#,##0.##",
+            suffix: "",
+            prefix: "+"
+        },
+        data: [{
+            type: "splineArea",
+            color: "rgba(54,158,173,.7)",
+            markerSize: 5,
+            xValueFormatString: "DD MMM, YYYY",
+            yValueFormatString: "#,##0.##",
+            dataPoints: cases
+        }]
+    });
