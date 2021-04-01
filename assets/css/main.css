@@ -18,11 +18,11 @@ body *{
 /*************************************************************************/
 
 .green-bg {
-    background: linear-gradient(145deg, #0c436f 0, #1d4c7f 100%)
+    background: #005C86
 }
 
 .lightgreen-bg {
-    background: linear-gradient(145deg, #985556 0, #2f0a0be3 100%)
+    background: #006C80;
 }
 
 .lime-bg {
@@ -377,4 +377,12 @@ ul.menu{
 .link i{
     font-size: 17px;
     vertical-align: bottom;
+}
+
+.supervisor strong{
+    color: #cc8b00;
+}
+
+.supervisor p {
+    font-size: 10px;
 }

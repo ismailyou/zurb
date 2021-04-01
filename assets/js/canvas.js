@@ -33,8 +33,7 @@ function draw_chart(data , cases = true, deaths = true, recovered = false){
         name: "Rétablis",
         dataPoints: data.recovered
     });
-    console.log(points)
-    var chart = new CanvasJS.Chart("chartContainer", {
+    let chart = new CanvasJS.Chart("chartContainer", {
         animationEnabled: true,
         axisY:{
             title: "",
