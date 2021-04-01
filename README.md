@@ -19,6 +19,7 @@ Project is created with:
 
 ## Equipe
 Supervised By Chouaib Moujahdi
+<br>
 designed and created by :
 <ul>
     <li>ZAKARIA LARHCHIM</li>
