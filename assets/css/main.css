@@ -370,10 +370,11 @@ ul.menu{
 }
 .link span {
     vertical-align: text-bottom;
-    font-size: 16px;
+    font-size: 13px;
 
     font-weight: 900;
 }
 .link i{
-    font-size: 20px;
+    font-size: 17px;
+    vertical-align: bottom;
 }
