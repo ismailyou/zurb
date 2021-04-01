@@ -18,13 +18,16 @@ Project is created with:
 <p> Visit our live demo <a href="https://foundation-z.web.app/">Corona Updates</a></p>
 
 ## Equipe
-Supervised By Chouaib Moujahdi
-<br>
-designed and created by :
+##### Supervised By :
 <ul>
+    <li>CHOAIB MOJAHDI</li>
+</ul>
+
+####Designed and Created by :
+<ul>
+    <li>ISMAIl JADID</li>
     <li>ZAKARIA LARHCHIM</li>
     <li>HASNAA AITAABDELMALEK</li>
-    <li>ISMAIl JADID</li>
     <li>SAID BELBACHIR</li>
 </ul>
 
