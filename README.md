@@ -3,7 +3,7 @@
 * [Technologies](#technologies)
 * [Demo](#demo)
 * [Equipe](#equipe)
-
+* [Today Quote](#quates)
 ## General info
 Live statistics and coronavirus news tracking the number of confirmed cases, recovered patients, tests, and death toll due to the COVID-19 coronavirus from Disese.sh.
 
@@ -32,3 +32,9 @@ Project is created with:
 </ul>
 
 &copy; 2020-2021
+
+#Today Quote
+
+<p>"Develop an attitude of gratitude and give thanks for everything that happens to you, knowing that every step forward is a step toward achieving something bigger and better than your current situation.” 
+<br>
+– Brian Tracy</p>
