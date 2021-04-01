@@ -9,6 +9,8 @@ let chart_data = {
 
 // Draw charts
 function draw_chart(data , cases = true, deaths = true, recovered = false){
+
+
     let points = [];
     if(cases) points.push({
         type: "splineArea",
@@ -31,7 +33,7 @@ function draw_chart(data , cases = true, deaths = true, recovered = false){
         name: "Rétablis",
         dataPoints: data.recovered
     });
-
+    console.log(points)
     var chart = new CanvasJS.Chart("chartContainer", {
         animationEnabled: true,
         axisY:{

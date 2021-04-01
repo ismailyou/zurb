@@ -1,22 +1,38 @@
-html {
+
+/*************************************************************************/
+/*************************** BODY STYLES *********************************/
+/*************************************************************************/
+
+html{
     scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive !important;
 }
-body {
+body{
     color: #0f2741;
 }
+body *{
+    font-family: 'Comfortaa', cursive !important;
+}
+/*************************************************************************/
+/*************************** BACKGROUNDS STYLES **************************/
+/*************************************************************************/
 
 .green-bg {
-    background: linear-gradient(145deg, #0b85e5 0, #1d4c7f 100%);
+    background: linear-gradient(145deg, #0c436f 0, #1d4c7f 100%)
 }
 
 .lightgreen-bg {
-    background: linear-gradient(145deg, #1d4c7f 0, #050e18 100%);
+    background: linear-gradient(145deg, #985556 0, #2f0a0be3 100%)
 }
 
 .lime-bg {
-    background: linear-gradient(145deg, #14a192 0, #0e7368 100%);
+    background: linear-gradient(134deg, #4b8e87 0, #0e7368 100%)
 }
 
+
+/*************************************************************************/
+/***************************** DASHBOARD STYLES **************************/
+/*************************************************************************/
 .log-box {
     color: #f9f9f9;
     height: 120px;
@@ -25,7 +41,21 @@ body {
     margin-bottom: 10px;
 }
 
+
 .log-box h3 {
+    text-align: end;
+    font-size: initial;
+    color: #f9f9f9;
+    text-transform: uppercase;
+}
+
+.log-box h3 i{
+    font-size: 30px;
+    vertical-align: sub;
+    font-weight: 900;
+}
+
+.log-box .ico {
     text-align: end;
     font-size: initial;
     color: #f9f9f9;
@@ -54,16 +84,18 @@ body {
     margin-right: 5px;
     color: #cc8b00;
 }
-/*
-  DASHBOARD COUNTER
-*/
+/*************************************************************************/
+/******************** DASHBOARD COUNTERS STYLES **************************/
+/*************************************************************************/
 
 .dash_counter > i {
     color: #e2202c;
     padding: 15px;
     font-size: 45px;
 }
-
+.ico{
+    color: #8a8a8a;
+}
 .dash_counter {
     margin-right: 12px;
     text-align: center;
@@ -76,7 +108,9 @@ body {
 .orange > i {
     color: #fd9727;
 }
-
+/*************************************************************************/
+/****************************** TITLES STYLES ****************************/
+/*************************************************************************/
 h5.title-bar {
     border-radius: 8px;
     background: #0f2741;
@@ -86,17 +120,23 @@ h5.title-bar {
 .title {
     margin-left: 10px;
 }
-
+/*************************************************************************/
+/************************* Information STYLES ****************************/
+/*************************************************************************/
 .callout{
     background-color: #ef767a;
+    background-color: #006C80;
     border-radius: 8px;
-    border: unset
+    border: unset;
+    height: 150px;
 }
 .first{
     background-color:#eeb868;
+    background-color:#5474BB;
 }
 .third{
     background-color:#49beaa;
+    background-color:#005C86;
 }
 
 .callout *{
@@ -109,26 +149,31 @@ h5.title-bar {
 
 }
 
-.footer{
-    margin-bottom: 100px;
-}
+/*************************************************************************/
+/**************µ************* jquery table STYLES ************************/
+/*************************************************************************/
+
 #table_small_info{
     display: none;
 }
 div.dataTables_wrapper div.dataTables_filter label{
     margin-bottom: 10px;
 }
+/*************************************************************************/
+/**************µ************* NAVBAR STYLES ******************************/
+/*************************************************************************/
 
-/***NAV BAR**/
 #top-menu {
     padding: unset;
 }
 #top-menu, .menu-text , #top-menu a, .top-bar, .top-bar ul{
-    background-color: #1a1a1a;
-    color: #fefefe;
+    background-color: #0a0a0a;
+    color: #c5c5c5;
+}
+#top-menu .accordion-menu{
+    margin: 10px auto;
 }
 
-/*** - LOGO - **/
 .menu-text strong{
     font-size: 2em;
     color: #cc8b00;
@@ -139,11 +184,35 @@ div.dataTables_wrapper div.dataTables_filter label{
 .menu-text span{
     float: left;
     position: absolute;
-    right: 29px;
-    top: 13px;
+    right: 28px;
+    top: 7px;
 }
+#top-menu a{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+ul.menu{
+    justify-content: space-around;
+}
+
+#top-menu a:hover , .social a:hover, .team a:hover{
+    color: #cc8b00;
+}
+.menu-text:hover {
+    color: #cc8b00;
+}
+.menu-text:hover strong {
+    color: #c5c5c5;
+}
+/*************************************************************************/
+/****************************** Footer STYLES ****************************/
+/*************************************************************************/
+.footer{
+    margin-bottom: 100px;
+}
+
 .logo-footer logo{
-    font-weight: bold;
+    font-weight: 900;
     right: 12px;
     top: 10px;
 }
@@ -152,13 +221,6 @@ div.dataTables_wrapper div.dataTables_filter label{
     padding: unset;
 }
 
-.menu-text:hover {
-    color: #cc8b00;
-}
-.menu-text:hover strong {
-        color: #ffffff;
-}
-/**Footer**/
 .logo-footer hr{
     width: 200px;
     margin:unset auto;
@@ -217,17 +279,19 @@ div.dataTables_wrapper div.dataTables_filter label{
     float: left;
     position: absolute;
     right: 30px;
-    top: 4px;
-    left: 44px;
+    top: 0px;
+    left: 50px;
 }
 .logo {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .copyright p {
     text-align: center;
 }
-
+/*************************************************************************/
+/**************µ***************** SOCIQL STYLES **************************/
+/*************************************************************************/
 .social{
     text-align: center
 }
@@ -243,19 +307,14 @@ div.dataTables_wrapper div.dataTables_filter label{
     color: black;
     font-size: 30px;
 }
-#top-menu a{
-    text-transform: uppercase;
-    font-weight: 500;
-}
 
-#top-menu a:hover , .social a:hover, .team a:hover{
-    color: #cc8b00;
-}
-
+/*************************************************************************/
+/**************µ*********** Team & Tools STYLES **************************/
+/*************************************************************************/
 .orbit{
+    margin: 20px auto;
     width: 100%;
 }
-
 .orbit-slide img{
     display: block;
     margin-left: auto;
@@ -264,11 +323,57 @@ div.dataTables_wrapper div.dataTables_filter label{
 .orbit-slide p {
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 0;
 }
 .orbit-slide h3 {
-    font-weight: bolder;
+    font-weight: 900;
     color: #cc8b00;
     margin: 0;
+}
+
+.orbit-slide img{
+    width: 100px;
+    box-shadow: unset;
+}
+
+
+.tools{
+    margin: 50px auto;
+}
+.tools h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.tools img {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    height: 120px;
+}
+
+.tools .subtext{
+    text-align: center;
+    height: 80px;
+    overflow: hidden;
+}
+
+.tools hr{
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-size: 20px;
+}
+.link span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+
+    font-weight: 900;
+}
+.link i{
+    font-size: 20px;
 }

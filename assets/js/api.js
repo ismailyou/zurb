@@ -29,15 +29,23 @@ function yes_date(){
     yesterday.setDate(yesterday.getDate() - 1);
     yesterday.toDateString();
 
-    let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(yesterday);
-    let mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(yesterday);
-    let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(yesterday);
+    let ye = new Intl.DateTimeFormat('fr', { year: 'numeric' }).format(yesterday);
+    let mo = new Intl.DateTimeFormat('fr', { month: 'long' }).format(yesterday);
+    let da = new Intl.DateTimeFormat('fr', { day: '2-digit' }).format(yesterday);
 
     return `${da} ${mo} ${ye}`;
 }
 
-let largeTable = $('#table_large').DataTable();
-let SmallTable = $('#table_small').DataTable();
+let largeTable = $('#table_large').DataTable({
+    "language": {
+        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
+    }
+});
+let SmallTable = $('#table_small').DataTable({
+    "language": {
+        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
+    }
+});
 
 $(".date").html(yes_date());
 

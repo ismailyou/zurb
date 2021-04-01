@@ -5,28 +5,28 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🦠 Coronavirus nombre de cas dans le monde | En direct</title>
+  <title>Coronavirus nombre de cas dans le monde | En direct</title>
+  <link rel="icon" href="assets/images/icon.png" />
 
   <meta name="description"  content="Statistiques et cas Coronavirus dans le monde en graphique 2D">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="keywords" content="covid 19, Covid19 Statistiques, Coronavirus, corona update, crise, Vaccins, pandemie covid 19" />
 
-
   <meta name="DC.Title" lang="fr" content="Covid 19 - En direct" />
-
   <meta name="copyright" content="© S.H.I.Z 2020-2021." />
-  <meta property="author" content="Ismail jadid, Said , Hasna , Zakaria" />
+  <meta property="author" content="ISMAIl JADID, ZAKARIA LARHCHIM, HASNAA AITAABDELMALEK ,SAID BELBACHIR" />
 
-  <link rel="icon" href="assets/images/icon.png" />
+
   <!-- FOUNDATION CSS & ICPONS-->
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link rel="stylesheet" href="assets/css/foundation-icons.css">
-
   <link rel="stylesheet" href="assets/css/motion-ui.min.css">
 
   <!-- DATATABLE-->
   <link rel="stylesheet" href="assets/css/dataTables.foundation.css">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- MAIN CSS-->
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -39,26 +39,24 @@
       <div class="title-bar-title">Menu</div>
     </div>
 
-    <div class="top-bar" id="top-menu">
+    <div class="top-bar" id="top-menu" data-toggler data-animate="slide-in-down slide-out-up">
       <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="accordion medium-dropdown">
         <li class="menu-text"><strong>U</strong>Corona<span>pdate</span></li>
       </ul>
 
       <div class="top-bar-right">
-        <ul class="menu">
+        <ul class="menu" data-smooth-scroll>
           <li><a href="#dash">Accueil</a></li>
           <li><a href="#table_link">Pays</a></li>
           <li><a href="#information_link">Bref</a></li>
-          <li><a href="#footer_link">A propos</a></li>
-
+          <li><a href="#team">A propos</a></li>
         </ul>
       </div>
     </div>
-
   </div>
 </div><!-- End Navbar -->
-<div class="container"><!-- HtmlCONTAINER -->
 
+<div class="container"><!-- HtmlCONTAINER -->
   <div class="grid-x grid-padding-x" id="dash"><!--Statistics Container -->
     <div class="large-12 cell">
       <h5 class="text-center title-bar">
@@ -71,7 +69,7 @@
           <span id="Tcases" data-purecounter-start="0"  data-purecounter-end="32053"  class="purecounter counter numbers">0</span>
           <i class="fi-arrow-up"></i>
         </div>
-        <h3><i class="fi-graph-bar"></i> Nouveaux Cas</h3>
+        <h3 class="ico"><i class="fi-target"></i> Nouveaux Cas</h3>
       </div>
     </div><!-- END First Badge -->
 
@@ -79,9 +77,9 @@
       <div class="log-box lightgreen-bg">
         <div class="dash_counter">
           <span id="Tdeath" data-purecounter-start="0" data-purecounter-end="815" class="purecounter counter numbers">0</span>
-          <i class="fi-alert"></i>
+          <i class="fi-skull"></i>
         </div>
-        <h3> <i class="fi-graph-bar"></i> Nouveaux décès</h3>
+        <h3 class="ico"> <i class="fi-graph-bar"></i> Nouveaux décès</h3>
       </div>
     </div><!-- END Second Badge -->
 
@@ -91,7 +89,7 @@
           <span id="Trecoverd" data-purecounter-start="0" data-purecounter-end="29118" class="purecounter counter numbers">0</span>
           <i class="fi-heart"></i>
         </div>
-        <h3 class="muted"> <i class="fi-web"></i> Rétablis</h3>
+        <h3 class="ico"> <i class="fi-graph-pie"></i> Rétabli</h3>
       </div>
     </div><!-- End Third Badge -->
   </div><!--END Statistics Container -->
@@ -100,7 +98,7 @@
   <div class="grid-x grid-padding-x charts"><!-- Graph Container-->
     <div class="large-4 medium-4 cell"><!--Form Container-->
       <h5 class="text-center title-bar">
-        <i class="fi-wrench"></i><span class="title"> paramétrage</span>
+        <i class="fi-widget"></i><span class="title text-uppercase"> Filtres</span>
       </h5>
       <form id="changeCanvas"><!-- Start Form -->
         <label>Pays
@@ -116,15 +114,15 @@
         <fieldset>
           <legend>Graphe</legend>
           <input id="checkbox12" type="checkbox" name="cases" checked><label for="checkbox12">Cas</label>
-          <input id="checkbox22" type="checkbox" name="deaths" checked><label for="checkbox22">décès</label>
-          <input id="checkbox32" type="checkbox" name="recovered"><label for="checkbox32">Rétablis</label>
+          <input id="checkbox22" type="checkbox" name="deaths" checked><label for="checkbox22">Décès</label>
+          <input id="checkbox32" type="checkbox" name="recovered"><label for="checkbox32">Rétabli</label>
         </fieldset>
         <button class="expanded button" type="submit"> <i class="fi-pencil"></i> Mise a jour</button>
       </form> <!-- End Form -->
     </div><!--End Form Container-->
     <div class="large-8 medium-8 cell"><!-- Chart Display-->
       <h5 class="text-center title-bar">
-        <i class="fi-torsos-all"></i><span class="title"> Coronavirus (Covid-19)</span>
+        <i class="fi-graph-bar"></i><span class="title"> Covid-19 Graphique</span>
       </h5>
       <div id="chartContainer" style="height: 300px; width: 100%;"></div>
     </div><!-- End Chart Display-->
@@ -133,7 +131,7 @@
   <div class="grid-x grid-padding-x" id="table_link"><!-- MAIN TABLE-->
     <div class="large-12 cell"><!-- Table Title -->
       <h5 class="text-center title-bar">
-        <i class="fi-web"></i><span class="title"> Monde Entier</span>
+        <i class="fi-web"></i><span class="title"> Statistique </span>
       </h5>
     </div><!-- END Table Title -->
 
@@ -150,7 +148,7 @@
           <th>Tot Rétablis</th>
           <th>Nouveaux Rétablis</th>
           <th>Cas actifs Sérieux</th>
-          <th>critique Cas Tot</th>
+          <th>Critique Cas Tot</th>
         </tr>
         </thead>
         <tbody>
@@ -191,7 +189,7 @@
       </div>
     </div><!-- End First tab-->
 
-    <div class="large-4 cell"><!-- Second tab-->
+    <div class="large-4 cell" ><!-- Second tab-->
       <div class="callout second">
         <span class=""><strong id="TotalDeaths">2,7 M</strong></span>
         <p>Nombre de décès dus au COVID-19 dans le monde au <strong class="date">22 mars 2021</strong></p>
@@ -207,56 +205,65 @@
 
   </div><!-- End Information Container-->
 
-  <div class="grid-x grid-padding-x"><!-- Testimenials Container-->
-    <div class="large-12 cell"><!-- Testimenials Title-->
+  <div class="grid-x grid-padding-x" id="team"><!-- Team Container-->
+    <div class="large-12 cell"><!-- Team Title-->
       <h5 class="text-center title-bar">
-        <i class="fi-laptop"></i><span class="title"> Team </span>
+        <i class="fi-laptop"></i><span class="title"> Team & Tools</span>
       </h5>
-    </div><!-- End Information Title-->
-
-    <div class="large-12 cell"><!-- Testimenials body-->
+    </div><!-- End team Title-->
+    <div class="large-12 cell"><!-- Team body-->
       <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <div class="orbit-wrapper">
           <div class="orbit-controls">
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
             <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
           </div>
-          <ul class="orbit-container">
+          <ul class="orbit-container" >
             <li class="orbit-slide is-active">
               <div>
+                <img class="thumbnail" src="assets/images/code.webp">
                 <h3 class="text-center">ISMAIL JADID</h3>
                 <p class="text-center">
                   FULL-STACK Web Developer
                 </p>
                 <div class="team text-center">
-                  <div class="yt">
-                    <a href="#"><i class="fi-social-twitter"></i></a>
+                  <div class="twitter">
+                    <a href="https://twitter.com/Dix_Neuf_Cent" target="_blank"><i class="fi-social-twitter"></i></a>
                   </div>
                   <div class="github">
-                    <a href="https://github.com/ismailyou"><i class="fi-social-github"></i></a>
+                    <a href="https://fr.linkedin.com/" target="_blank"><i class="fi-social-github"></i></a>
+                  </div>
+                  <div class="linkedin">
+                    <a href="https://github.com/ismailyou" target="_blank"><i class="fi-social-linkedin"></i></a>
                   </div>
                 </div>
               </div>
             </li>
             <li class="orbit-slide">
               <div>
+                <img class="thumbnail" src="assets/images/code.webp">
                 <h3 class="text-center">SAID BELBACHIR</h3>
                 <p class="text-center">
                   WEB DESIGNER
                 </p>
                 <div class="team text-center">
                   <div class="yt">
-                    <a href="#"><i class="fi-social-twitter"></i></a>
+                    <a href="#"  target="_blank"><i class="fi-social-twitter"></i></a>
                   </div>
                   <div class="github">
-                    <a href="#"><i class="fi-social-windows"></i></a>
+                    <a href="#"  target="_blank"><i class="fi-social-windows"></i></a>
+                  </div>
+                  <div class="linkedin">
+                    <a href="https://github.com/" target="_blank"><i class="fi-social-linkedin"></i></a>
                   </div>
                 </div>
               </div>
             </li>
+
             <li class="orbit-slide">
               <div>
-                <h3 class="text-center">HASNA AITAABDELMALEK</h3>
+                <img class="thumbnail" src="assets/images/code.webp">
+                <h3 class="text-center">HASNAA AITAABDELMALEK</h3>
                 <p class="text-center">
                   BACK-End Web Developer
                 </p>
@@ -264,24 +271,31 @@
                   <div class="yt">
                     <a href="#"><i class="fi-social-instagram"></i></a>
                   </div>
-                  <div class="github">
-                    <a href="#"><i class="fi-social-500px"></i></a>
+                  <div class="linkedin">
+                    <a href="https://github.com/hasnaaait" target="_blank"><i class="fi-social-linkedin"></i></a>
                   </div>
+                  <div class="github">
+                  <a href="https://github.com/hasnaait" target="_blank"><i class="fi-social-github"></i></a>
+                </div>
                 </div>
               </div>
             </li>
             <li class="orbit-slide">
               <div>
+                <img class="thumbnail" src="assets/images/code.webp">
                 <h3 class="text-center">ZAKARIA LARHCHIM</h3>
                 <p class="text-center">
-                  Fron-End Web Developer
+                  Front-End Web Developer
                 </p>
                 <div class="team text-center">
                   <div class="yt">
-                    <a href="#"><i class="fi-social-youtube"></i></a>
+                    <a href="#"  target="_blank"><i class="fi-social-youtube"></i></a>
                   </div>
                   <div class="github">
-                    <a href="#"><i class="fi-social-twitter"></i></a>
+                    <a href="#"  target="_blank"><i class="fi-social-twitter"></i></a>
+                  </div>
+                  <div class="linkedin">
+                    <a href="https://github.com/ismailyou" target="_blank"><i class="fi-social-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -291,10 +305,67 @@
 
         </div>
       </div>
-    </div><!-- Testimenials body-->
+    </div><!-- End Team body-->
+  </div><!-- End Team Container-->
+  <hr>
+  <div class="grid-x grid-padding-x grid-margin-y tools">
+    <div class="cell large-auto medium-6 small-6">
+      <a href="#" target="_blank">
+        <img src="assets/images/tools/yeti-point.svg">
+      </a>
+        <h5 class="text-center text-uppercase">Zurb Foundation</h5>
+      <div class="team link text-center">
+        <div class="twiter">
+          <a href="https://twitter.com/FoundationCSS" target="_blank"><i class="fi-social-twitter"></i> <span>@FoundationCSS</span></a>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class="cell large-auto medium-6 small-6">
+      <a href="#" target="_blank">
+        <img src="assets/images/tools/Datatables_logo_square.png">
+      </a>
+      <h5 class="text-center text-uppercase">JQuery DataTables</h5>
+      <div class="team link text-center">
+        <div class="twiter">
+          <a href="https://twitter.com/DataTables" target="_blank"><i class="fi-social-twitter"></i> <span>@DataTables</span></a>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class="cell large-auto medium-6 small-6">
+      <img src="assets/images/tools/canvas-js.png">
+      <h5 class="text-center text-uppercase show">CanvasJS</h5>
+      <div class="team link text-center">
+        <div class="twiter">
+          <a href="https://twitter.com/canvasjs" target="_blank"><i class="fi-social-twitter"></i> <span>@canvasjs</span></a>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class="cell large-auto medium-6 small-6">
+      <img src="assets/images/tools/firebase.png">
+      <h5 class="text-center text-uppercase">Firebase Hosting</h5>
 
-  </div><!-- End Testimenials Container-->
+      <div class="team link text-center">
+        <div class="twiter">
+          <a href="https://twitter.com/Firebase" target="_blank"><i class="fi-social-twitter"></i> <span>@Firebase</span></a>
+        </div>
+        <hr>
+      </div>
+    </div>
 
+    <div class="cell large-auto medium-auto">
+      <img src="assets/images/tools/disease.png">
+      <h5 class="text-center text-uppercase">disease.sh</h5>
+      <div class="team link text-center">
+        <div class="twiter">
+          <a href="https://twitter.com/DiseaseAPI" target="_blank"><i class="fi-social-twitter"></i> <span>@diseaseAPI</span></a>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
 
   <div class="fw-footer" id="footer_link"><!-- Footer -->
     <div class="skew"></div>
@@ -309,14 +380,16 @@
       </p>
       <hr>
       <div class="social">
+        <h6>Suivez-nous</h6>
+
         <div class="fb">
-          <a href="https://facebook.com/"><i class="fi-social-facebook"></i></a>
+          <a href="https://facebook.com/" target="_blank"><i class="fi-social-facebook"></i></a>
         </div>
         <div class="twitter">
-          <a href="https://twitter.com/"><i class="fi-social-twitter"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fi-social-twitter"></i></a>
         </div>
         <div class="github">
-          <a href=" https://github.com/ismailyou/zurb.git"><i class="fi-social-github"></i></a>
+          <a href=" https://github.com/ismailyou/zurb.git" target="_blank"><i class="fi-social-github"></i></a>
         </div>
       </div>
     </div>
@@ -353,12 +426,10 @@
 <script src="assets/js/purecounter.js"></script>
 <script>
   $(document).ready(function () {
-    $.fn.DataTable.ext.pager.numbers_length = 4;
-    $('#table_large').DataTable();
-    $('#table_small').DataTable();
-    
+    $.fn.DataTable.ext.pager.numbers_length = 6;
   });
 </script>
+
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="/__/firebase/8.3.1/firebase-app.js"></script>
 <script src="/__/firebase/8.3.1/firebase-analytics.js"></script>

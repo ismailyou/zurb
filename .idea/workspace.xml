@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfdb461-ed39-44b8-a221-ac90c467867c" name="Default Changelist" comment="" />
+    <list default="true" id="dbfdb461-ed39-44b8-a221-ac90c467867c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/u.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/change.chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/change.chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +36,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qGqFobezqlcRojzBQJlM0MVwT9" />
   <component name="ProjectViewState">
@@ -18,10 +48,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Films\Foundation-Sites-6.6.3-CSS\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Films\Foundation-Sites-6.6.3-CSS\assets\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,18 +71,30 @@
       <updated>1616716173708</updated>
       <workItem from="1616716174812" duration="67429000" />
       <workItem from="1617100913741" duration="4044000" />
-      <workItem from="1617108255630" duration="9561000" />
+      <workItem from="1617108255630" duration="28220000" />
+      <workItem from="1617228268326" duration="21095000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616884110003">
+    <state x="414" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617142613278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="414" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1616884110003" />
+    <state x="414" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1617142613278" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1616883573958">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -53,14 +103,23 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1617016119343" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617142640655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1617142640655" />
+    <state x="0" y="0" width="710" height="728" key="find.popup" timestamp="1617141933261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="710" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1617141933261" />
     <state width="752" height="222" key="javadoc.popup" timestamp="1616893152481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="752" height="222" key="javadoc.popup/0.0.1366.728@0.0.1366.728" timestamp="1616893152480" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1616974322228">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="476" y="231" width="945" height="968" key="run.anything.popup" timestamp="1617187938921">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616974322228" />
+    <state x="476" y="231" width="945" height="968" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617187938921" />
     <state x="262" y="0" key="search.everywhere.popup" timestamp="1617023729277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
